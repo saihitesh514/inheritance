@@ -9,8 +9,9 @@ class Dog extends Animal{
     
 }
 public class test {
-    public static void main(string [] args) 
+    public static void main(string [] args){
     Dog = new dog(); 
     dog.d() 
 }
 
+}
