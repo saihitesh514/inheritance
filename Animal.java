@@ -1,17 +1,17 @@
 class Animal{
-    void sound (){
-        System.out.println("Animal makes sound");
+    public void sound(){
+        System.out.println("Animal sound");
     }
 }
-class Dog extends Animal{
-    void sound(){
-        system.out.println("dog bracks");
-    
-}
-public class test {
-    public static void main(string [] args){
-    Dog = new dog(); 
-    dog.d();
-}
 
+class Child extends Animal{
+    public void childSound(){
+         System.out.println("Child sound");
+    }
 }
+ public class test{
+     public static void main(String[] args){
+         Child obj=new Child();
+         obj.sound();
+     }
+ }
